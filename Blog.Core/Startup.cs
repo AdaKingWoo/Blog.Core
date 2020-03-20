@@ -134,6 +134,7 @@ namespace Blog.Core
                 builder.RegisterType<BlogLogAOP>();
                 cacheType.Add(typeof(BlogLogAOP));
             }
+            #endregion
 
             // 获取 Service.dll 程序集服务，并注册
             var assemblysServices = Assembly.LoadFrom(servicesDllFile);
