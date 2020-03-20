@@ -149,8 +149,7 @@ namespace Blog.Core
                    .AsImplementedInterfaces()
                    .InstancePerDependency();
 
-            #endregion
-
+            
             #region 没有接口层的服务层注入
 
             //因为没有接口层，所以不能实现解耦，只能用 Load 方法。
@@ -169,6 +168,10 @@ namespace Blog.Core
 
             #endregion
 
+
+
+
+            //最大的 gayhub 网站
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
